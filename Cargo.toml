@@ -1,0 +1,18 @@
+[package]
+name = "hcnet-strkey"
+description = "Encode and decode strkeys for Hcnet."
+homepage = "https://github.com/hcnet/rs-hcnet-strkey"
+repository = "https://github.com/hcnet/rs-hcnet-strkey"
+authors = ["Hcnet Development Foundation <info@hcnet.org>"]
+license = "Apache-2.0"
+readme = "README.md"
+version = "0.0.7"
+edition = "2021"
+rust-version = "1.66"
+
+[dev-dependencies]
+proptest = "1.0.0"
+
+[dependencies]
+base32 = "0.4.0"
+thiserror = "1.0.36"
